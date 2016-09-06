@@ -3,11 +3,27 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
-
+/*code for background is #F7F0EE*/
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	max-width:960px;
+	margin:0,auto;
+}
+
+.copyright{
+	text-align: right;
+}
+
+img{
+	max-width:100%;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -17,4 +33,36 @@ body {
 	padding: 0 45px 20px;
 }
 
+header{
+	max-width: 960px;
+}
+
+.mainLogo{
+	float:left;
+}
+
+header a{
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
 /* Write all remaining styles here */
